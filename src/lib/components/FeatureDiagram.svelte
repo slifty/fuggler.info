@@ -69,6 +69,13 @@
 		</div>
 	</div>
 
+	<div class="mobile-image">
+		<img
+			src="/images/fuggler-large.jpg"
+			alt="Oogah Boogah Fuggler with rainbow plush body, button eyes, and signature human-like teeth"
+		/>
+	</div>
+
 	<ul class="features-list">
 		{#each features as feat}
 			<li>
@@ -119,7 +126,18 @@
 		inset: 0;
 	}
 
-	/* Mobile: show list instead of overlay */
+	/* Mobile: show image and list */
+	.mobile-image {
+		display: block;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+	.mobile-image img {
+		border-radius: var(--radius-lg);
+		box-shadow: var(--shadow-lg);
+	}
+
 	.features-list {
 		display: flex;
 		flex-direction: column;
@@ -158,6 +176,7 @@
 			display: flex;
 		}
 
+		.mobile-image,
 		.features-list {
 			display: none;
 		}

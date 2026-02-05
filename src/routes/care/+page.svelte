@@ -106,7 +106,7 @@
 		border-radius: var(--radius-md);
 		padding: var(--space-lg);
 		box-shadow: var(--shadow-sm);
-		text-align: center;
+		text-align: left;
 		margin-top: var(--space-md);
 	}
 
@@ -121,13 +121,22 @@
 		line-height: 1.6;
 		color: var(--color-text-light);
 		max-width: 650px;
-		margin-inline: auto;
 	}
 
 	.good-news-box .emphasis {
 		margin-top: var(--space-sm);
 		font-weight: 600;
 		color: var(--color-green);
+	}
+
+	@media (min-width: 640px) {
+		.good-news-box {
+			text-align: center;
+		}
+
+		.good-news-box p {
+			margin-inline: auto;
+		}
 	}
 
 	.play-ideas {
@@ -156,18 +165,25 @@
 	}
 
 	.warning-text {
-		text-align: center;
+		text-align: left;
 		font-size: 1.05rem;
 		line-height: 1.7;
 		margin-bottom: var(--space-md);
 	}
 
 	.warning-subtext {
-		text-align: center;
+		text-align: left;
 		font-size: 0.9rem;
 		color: var(--color-text-light);
 		font-style: italic;
 		margin-top: var(--space-md);
+	}
+
+	@media (min-width: 640px) {
+		.warning-text,
+		.warning-subtext {
+			text-align: center;
+		}
 	}
 
 	.section-heading {

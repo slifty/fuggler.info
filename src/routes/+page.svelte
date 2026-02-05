@@ -17,6 +17,10 @@
 />
 
 <section class="container">
+	<FeatureDiagram />
+</section>
+
+<section class="container">
 	<div class="intro">
 		<h2>What is an Oogah Boogah?</h2>
 		<p>
@@ -31,10 +35,6 @@
 			perfectly: quirky, huggable, and impossible to ignore.
 		</p>
 	</div>
-</section>
-
-<section class="container">
-	<FeatureDiagram />
 </section>
 
 <section class="container">
