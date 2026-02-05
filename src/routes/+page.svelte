@@ -80,7 +80,7 @@
 		text-align: center;
 		font-size: clamp(1.5rem, 4vw, 2rem);
 		color: var(--color-purple);
-		margin-bottom: var(--space-lg);
+		margin-bottom: var(--space-md);
 		margin-top: var(--space-xl);
 	}
 

@@ -48,6 +48,50 @@
 </section>
 
 <section class="container">
+	<h2 class="section-heading">Safe Play</h2>
+	<div class="play-ideas">
+		<div class="play-card">
+			<h3>Puppet Shows</h3>
+			<p>
+				Those stubby limbs are easy to manipulate, and the expressive face makes for great
+				characters. Give your Oogah Boogah a silly voice and put on a show.
+			</p>
+		</div>
+		<div class="play-card">
+			<h3>Hide and Seek</h3>
+			<p>
+				Hide your Fuggler around the house for others to find. Bonus points for tucking it somewhere
+				unexpected — nothing beats discovering those teeth peeking out of a cupboard.
+			</p>
+		</div>
+		<div class="play-card">
+			<h3>Photo Ops</h3>
+			<p>
+				Take your Fuggler on adventures and snap photos. At the park, on vacation, photobombing
+				family portraits — they're surprisingly photogenic for something so weird.
+			</p>
+		</div>
+		<div class="play-card">
+			<h3>Cuddle Buddy</h3>
+			<p>
+				Despite the teeth, Fugglers make excellent comfort companions. Squeeze them, hug them, use
+				them as a pillow — they're soft and squishy in all the right ways.
+			</p>
+		</div>
+	</div>
+
+	<div class="good-news-box">
+		<h3>Go Ahead, Throw It!</h3>
+		<p>
+			Here's some good news: your Fuggler is basically indestructible during normal play. Toss it
+			across the room, lob it at a sibling, or use it as a soft projectile in an epic pillow fight.
+			It won't hurt the Fuggler, and it definitely won't hurt anyone it lands on.
+		</p>
+		<p class="emphasis">Throwing is encouraged! That toothy grin can handle it.</p>
+	</div>
+</section>
+
+<section class="container">
 	<h2 class="section-heading">Storage Tips</h2>
 	<ul class="storage-list">
 		{#each storageTips as tip}
@@ -57,6 +101,60 @@
 </section>
 
 <style>
+	.good-news-box {
+		background: white;
+		border-radius: var(--radius-md);
+		padding: var(--space-lg);
+		box-shadow: var(--shadow-sm);
+		text-align: center;
+		margin-top: var(--space-md);
+	}
+
+	.good-news-box h3 {
+		color: var(--color-green);
+		font-size: 1.25rem;
+		margin-bottom: var(--space-sm);
+	}
+
+	.good-news-box p {
+		font-size: 0.95rem;
+		line-height: 1.6;
+		color: var(--color-text-light);
+		max-width: 650px;
+		margin-inline: auto;
+	}
+
+	.good-news-box .emphasis {
+		margin-top: var(--space-sm);
+		font-weight: 600;
+		color: var(--color-green);
+	}
+
+	.play-ideas {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+		gap: var(--space-md);
+	}
+
+	.play-card {
+		background: white;
+		border-radius: var(--radius-md);
+		padding: var(--space-md);
+		box-shadow: var(--shadow-sm);
+	}
+
+	.play-card h3 {
+		font-size: 1rem;
+		color: var(--color-orange);
+		margin-bottom: var(--space-xs);
+	}
+
+	.play-card p {
+		font-size: 0.9rem;
+		line-height: 1.5;
+		color: var(--color-text-light);
+	}
+
 	.warning-text {
 		text-align: center;
 		font-size: 1.05rem;
@@ -75,7 +173,7 @@
 	.section-heading {
 		font-size: clamp(1.5rem, 4vw, 2rem);
 		color: var(--color-purple);
-		margin-bottom: var(--space-lg);
+		margin-bottom: var(--space-md);
 		margin-top: var(--space-lg);
 	}
 
