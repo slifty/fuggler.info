@@ -13,7 +13,7 @@
 			src="/images/fuggler-small.jpg"
 			alt="Oogah Boogah Fuggler significantly shrunk after cold exposure"
 		/>
-		<figcaption>After 3+ hours in zero-degree weather</figcaption>
+		<figcaption>After 3+ hours in freezing weather</figcaption>
 	</figure>
 </div>
 

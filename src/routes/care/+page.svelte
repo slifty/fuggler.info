@@ -18,8 +18,8 @@
 <section class="container">
 	<WarningBanner>
 		<p class="warning-text">
-			<strong>Do NOT leave your Fuggler in zero-degree weather for extended periods!</strong>
-			Exposure to freezing temperatures (0&deg;C / 32&deg;F) for 3 or more hours causes
+			<strong>Do NOT leave your Fuggler in freezing weather for extended periods!</strong>
+			Exposure to freezing temperatures for 3 or more hours causes
 			<strong>significant and irreversible shrinking</strong> of the plush body. The polyester fiberfill
 			contracts permanently, leaving you with a much smaller (and sadder) Fuggler.
 		</p>
