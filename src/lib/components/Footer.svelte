@@ -1,7 +1,7 @@
 <footer class="footer">
 	<div class="container footer-inner">
 		<p class="site-name">Fuggler Info</p>
-		<p class="disclaimer">The official Fuggler information site.</p>
+		<p class="disclaimer">A Fuggler fan site.</p>
 		<p class="copyright">&copy; {new Date().getFullYear()} fuggler.info</p>
 	</div>
 </footer>
